@@ -9,7 +9,7 @@ RATE_PER_HOUR = 200
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=2)
 time.sleep(2)
 
-print("Welcome to Parking management system👋\n")
+print("Welcome")
 
 def read_serial_line():
     while True:
